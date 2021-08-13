@@ -1,0 +1,287 @@
+@font-face {
+  font-family: 'Mulish';
+  src: url(../fonts/Mulish-ExtraLight.woff);
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'Mulish';
+  src: url(../fonts/Mulish-Light.woff);
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Mulish';
+  src: url(../fonts/Mulish-Medium.woff);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Mulish';
+  src: url(../fonts/Mulish-SemiBold.woff);
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Mulish';
+  src: url(../fonts/Mulish-ExtraBold.woff);
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: 'Mulish';
+  src: url(../fonts/Mulish-Italic.woff);
+  font-style: italic;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Mulish';
+  font-weight: 300;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.btn {
+  display: inline-block;
+  padding: 8px 17px;
+  text-decoration: none;
+  color: white;
+  background: #52AADB;
+  border-radius: 8px;
+}
+
+.intro-title {
+  width: 100%;
+  text-align: center;
+  padding: 85px 0;
+}
+
+.intro-title h2 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 72px;
+  color: #000000;
+}
+
+.introduction {
+  max-width: 100%;
+  height: 100vh;
+  background: url(../images/bg_intro.png) no-repeat;
+  background-size: cover;
+}
+
+.introduction .header {
+  padding: 10px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.introduction .header .header_linkers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+}
+
+.introduction .header .header_linkers .header_linker a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 15px;
+}
+
+.introduction .main-part {
+  width: 100%;
+  height: calc(100vh - 105px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.introduction .main-part .box {
+  width: 50%;
+  color: #FFFFFF;
+}
+
+.introduction .main-part .box h1 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.introduction .main-part .box p {
+  font-size: 14px;
+  line-height: 21px;
+  margin: 10px 0;
+}
+
+.introduction .main-part .down-arrow {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+}
+
+.about {
+  max-width: 100%;
+  background: url(../images/bg_part-2.png) no-repeat;
+  background-size: cover;
+}
+
+.about .card-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.about .card-wrapper .card {
+  width: 500px;
+  max-height: 650px;
+  text-align: center;
+  -webkit-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+  padding: 40px 60px;
+  background: #FFFFFF;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: -10px -10px 20px #FFFFFF, 10px 10px 20px #C5C5C5;
+          box-shadow: -10px -10px 20px #FFFFFF, 10px 10px 20px #C5C5C5;
+  border-radius: 15px;
+  margin: 30px 0;
+}
+
+.about .card-wrapper .card:hover {
+  background: #EAEAEA;
+  border-radius: 15px;
+  -webkit-box-shadow: 0 0 0 0;
+          box-shadow: 0 0 0 0;
+}
+
+.about .card-wrapper .card img {
+  width: 297px;
+  height: 297px;
+}
+
+.about .card-wrapper .card h3 {
+  margin: 40px 0 20px;
+  font-weight: 600;
+  font-size: 48px;
+}
+
+.about .card-wrapper .card p {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.about .teachers-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.about .teachers-card .card {
+  max-width: 230px;
+  text-align: center;
+}
+
+.about .teachers-card .card h3 {
+  margin: 15px 0 10px;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.about .teachers-card .card p {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.about .intro-title-contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 40px 0;
+}
+
+.about .intro-title-contact h2 {
+  font-weight: 300;
+  text-align: center;
+  font-size: 48px;
+  line-height: 72px;
+}
+
+.about .intro-title-contact .contact-us {
+  font-size: 48px;
+  color: #FFB800;
+  text-decoration: none;
+  margin-top: 50px;
+  padding: 15px 46px 15px 97px;
+  display: inline-block;
+  background: #F1F1F1;
+  -webkit-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+  -webkit-box-shadow: -6px -6px 10px #FFFFFF, 6px 6px 10px #CACACA;
+          box-shadow: -6px -6px 10px #FFFFFF, 6px 6px 10px #CACACA;
+  border-radius: 15px;
+  position: relative;
+}
+
+.about .intro-title-contact .contact-us::before {
+  content: "";
+  position: absolute;
+  background: url(../images/icons/phone.svg) no-repeat;
+  width: 40px;
+  height: 40px;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  left: 32px;
+}
+
+.about .intro-title-contact .contact-us:hover {
+  -webkit-box-shadow: 0 0 0 0;
+          box-shadow: 0 0 0 0;
+}
+/*# sourceMappingURL=main.css.map */
